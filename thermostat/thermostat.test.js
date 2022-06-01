@@ -5,7 +5,7 @@ describe('Thermostat', () => {
     const thermostat = new Thermostat();
     expect(thermostat.temperature()).toBe(20);
   });
-
+ 
   it('up function increases the temperature', () => {
     const thermostat = new Thermostat();
     thermostat.up(1);
